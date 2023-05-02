@@ -1,0 +1,9 @@
+name: UK baseline policy
+endpoint: /uk/policy/0
+method: GET
+data: {} # only for POST
+response:
+  data:
+    result:
+      message: "Policy #0 not found."
+  status: 404

@@ -1,0 +1,11 @@
+name: UK custom policy creation
+endpoint: /uk/policy
+method: POST
+data:
+  label: Sample policy for testing policy creation endpoint
+  data:
+    gov.hmrc.income_tax.rates.uk[0].rate:
+      2023-01-01.2028-12-31:
+        0.29
+response:
+  status: 200

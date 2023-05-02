@@ -1,0 +1,7 @@
+name: Malformed country ID metadata
+endpoint: /mx/metadata
+method: GET
+response:
+  status: 400
+  data:
+    message: "Country mx not found. Available countries are: uk, us, ca, ng"
